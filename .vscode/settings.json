@@ -1,0 +1,6 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "java": "cd \"$workspaceRoot\" ; javac -d out Modifier/*.java Outside/*.java ; java -cp out Outside.Author"
+  }
+}
